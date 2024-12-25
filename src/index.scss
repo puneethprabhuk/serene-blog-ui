@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Utility library classes */
+
+.btn {
+  border: none;
+  outline: none;
+  padding: .6em 2em;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: .3s all ease-in-out;
+}
+
+.btn-fill {
+  background-color: #6100ff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-fill:hover {
+  background-color: #6610f1;
+}
+
+.btn-outline {
+  background-color: #ffffff;
+  color: #6100ff;
+  border: 1px solid #6100ff;
+  font-weight: bold;
+}
+
+.btn-outline:hover {
+  background-color: #6610f1;
+  border: 1px solid #6610f1;
+  color: #fff;
+}
