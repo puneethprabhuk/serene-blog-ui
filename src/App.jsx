@@ -1,9 +1,12 @@
 import React from 'react';
+import Home from './pages/home/Home';
+import Navbar from './components/navbar/Navbar';
 
 const App = () => {
   return (
     <div>
-      Serene blog
+      <Navbar />
+      <Home />
     </div>
   )
 }
