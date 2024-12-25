@@ -19,10 +19,16 @@ a {
 
 /* Utility library classes */
 
+.container {
+  width: 1400px;
+  max-width: 1400px;
+  padding: 1em 2em;
+}
+
 .btn {
   border: none;
   outline: none;
-  padding: .6em 2em;
+  padding: 1em 2em;
   cursor: pointer;
   border-radius: 6px;
   transition: .3s all ease-in-out;
