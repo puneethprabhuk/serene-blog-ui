@@ -20,9 +20,9 @@ a {
 /* Utility library classes */
 
 .container {
-  width: 1400px;
   max-width: 1100px;
   padding: 1em 2em;
+  margin: 0 auto;
 }
 
 .btn {
@@ -55,4 +55,37 @@ a {
   background-color: #6610f1;
   border: 1px solid #6610f1;
   color: #fff;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .nav-items {
+    display: none !important;
+  }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+   .article-box-wide{
+    flex-direction: column;
+
+    .image-container,
+    .content-container {
+      width: 100% !important;
+    }
+  }
+
+  .hero-section {
+    .tag-line {
+      width: 100% !important;
+    }
+  }
+
+  .article-box {
+    width: 100% !important;
+  }
+
+
 }

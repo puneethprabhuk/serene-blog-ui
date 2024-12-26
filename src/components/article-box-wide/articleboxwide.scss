@@ -1,5 +1,5 @@
 .article-box-wide {
-    width: 70vw;
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -7,7 +7,7 @@
     margin-bottom: 2.5em;
 
     .image-container {
-        width: 30%;
+        width: 50%;
         border-radius: 20px;
         img {
             width: 100%;
@@ -17,24 +17,43 @@
 
 
     .content-container {
-        .date {
+        width: 50%;
+        .author {
             display: inline-block;
-            font-size: 12px;
-            margin-bottom: 2em;
-            background-color: rgb(231, 230, 230);
-            color: gray;
-            padding: .2em .8em;
-            border-radius: 10px;
+            font-size: 14px;
+            color: rgb(166, 166, 166);
+            font-weight: 500;
         }
         .title {
             margin-bottom: 1em;
+            width: 100%;
         }
 
         .description {
             color: grey;
             margin-bottom: 1.6em;
-            width: 70%;
+            width: 100%;
             font-size: 14px;
+        }
+
+        .category-label {
+            font-size: 12px;
+            padding: .2em .6em;
+            background-color: rgb(246, 227, 234);
+            display: inline-block;
+            border-radius: 6px;
+            color: rgb(239, 65, 123);
+            font-weight: 500;
+        }
+
+        .basic-details-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .basic-details {
+                font-size: 14px;
+            color: rgb(166, 166, 166);
+            }
         }
     }
 }

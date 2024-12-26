@@ -28,10 +28,11 @@
             .category-label {
                 font-size: 12px;
                 padding: .2em .6em;
-                background-color: palevioletred;
+                background-color: rgb(246, 227, 234);
                 display: inline-block;
                 border-radius: 6px;
-                color: #fff;
+                color: rgb(239, 65, 123);
+                font-weight: 500;
             }
         }
         .basic-details-label {
@@ -41,6 +42,7 @@
         }
         .title {
             margin-bottom: 1em;
+            color: #000;
         }
 
         .description {

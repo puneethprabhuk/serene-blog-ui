@@ -1,15 +1,11 @@
 import React from 'react';
-import './home.scss';
-import ArticleBoxWide from '../../components/article-box-wide/ArticleBoxWide';
+import './articlelist.scss';
 import ArticleBox from '../../components/article-box/ArticleBox';
-import Hero from '../../components/hero/Hero';
 
-const Home = () => {
+const ArticleList = () => {
     return (
-        <div className='home-container'>
+        <div className='article-list'>
             <div className="container">
-                <Hero />
-                <ArticleBoxWide />
                 <div className="articles">
                     <div className="section-title-container">
                         <h3 className='section-title'>All Posts</h3>
@@ -25,7 +21,7 @@ const Home = () => {
                         <ArticleBox />
                     </div>
                     <div className='home-view-button-container'>
-                        <button className="btn btn-outline">View All</button>
+                        <button className="btn btn-outline">Load More</button>
                     </div>
                 </div>
             </div>
@@ -33,4 +29,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default ArticleList

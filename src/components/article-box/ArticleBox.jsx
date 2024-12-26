@@ -1,9 +1,12 @@
 import React from 'react';
 import './articlebox.scss';
+import { Link } from 'react-router-dom';
+
+
 
 const ArticleBox = () => {
   return (
-    <div className='article-box'>
+    <Link to='/post' className='article-box'>
       <div className="image-container">
         <img src="https://img.freepik.com/premium-photo/wide-angle-shot-single-tree-growing-clouded-sky-sunset-surrounded-by-grass_181624-22807.jpg" alt="article-image" />
       </div>
@@ -20,7 +23,7 @@ const ArticleBox = () => {
           <span className='basic-details-label'>4 mins read</span>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 
