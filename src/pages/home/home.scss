@@ -1,4 +1,25 @@
 .home-container {
     display: flex;
     justify-content: center;
+
+    .articles {
+        .section-title-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .article-list{
+            margin: 2.5rem 0;
+            display: flex;
+            row-gap: 50px;
+            column-gap: 30px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .home-view-button-container {
+        display: flex;
+        justify-content: center;
+    }
 }

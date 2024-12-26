@@ -15,8 +15,8 @@ const Navbar = () => {
           <li className='nav-item'>Contact</li>
         </ul>
         <div className="nav-button-container">
-          <button className="btn">Login</button>
-          <button className="btn">Signup</button>
+          <button className="btn login-btn">Login</button>
+          <button className="btn signup-btn">Register</button>
         </div>
       </div>
     </nav>
